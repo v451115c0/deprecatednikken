@@ -12,7 +12,7 @@
         exit("Error al conectar: " . $e->getMessage());
     }*/
 
-    $mysqli = new mysqli("172.24.16.75:3306", "nikkenla_mkrt", "NNikken2011$$", "nikkenla_marketing");
+    $mysqli = new mysqli("104.130.46.73:1433", "nikkenla_mkrt", "NNikken2011$$", "nikkenla_marketing");
     //$mysqli = new mysqli("104.238.83.157", "nikkenla_mkrt", "NNikken2011$$", "nikkenla_marketing");
     if ($mysqli->connect_errno) {
         echo "Fallo al conectar a MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
