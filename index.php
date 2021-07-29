@@ -1,5 +1,5 @@
 <?php
-	/*$dbHost = '172.24.16.75';
+	$dbHost = '172.24.16.75';
     $dbName = 'nikkenla_site';
     $dbUser = 'nikkenla_mkrt';
     $dbPass = 'NNikken2011$$';
@@ -10,12 +10,12 @@
     }
     catch(Exception $e){
         exit("Error al conectar: " . $e->getMessage());
-    }*/
+    }
 
-    $nikkenla_marketingConnect = new mysqli("172.24.16.75:3306", "nikkenla_mkrt", "NNikken2011$$", "nikkenla_marketing");
+    /*$nikkenla_marketingConnect = new mysqli("172.24.16.75:3306", "nikkenla_mkrt", "NNikken2011$$", "nikkenla_marketing");
     if ($nikkenla_marketingConnect->connect_errno) {
         echo "Fallo al conectar a MySQL<br>";
     }
     else{
         echo "conectado";
-    }
+    }*/
