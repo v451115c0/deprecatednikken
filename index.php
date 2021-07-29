@@ -12,7 +12,7 @@
         exit("Error al conectar: " . $e->getMessage());
     }*/
 
-    $nikkenla_marketingConnect = new mysqli("172.24.16.75", "nikkenla_mkrt", "NNikken2011$$", "nikkenla_marketing");
+    $nikkenla_marketingConnect = new mysqli("104.130.46.73", "nikkenla_mkrt", "NNikken2011$$", "nikkenla_marketing");
     if ($nikkenla_marketingConnect->connect_errno) {
         return "Fallo al conectar a MySQL<br>";
     }
