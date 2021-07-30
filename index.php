@@ -1,6 +1,6 @@
 <?php
-	//$dbHost = '104.130.46.73:3306';
-	$dbHost = '127.0.0.1';
+	$dbHost = '104.130.46.73:3306';
+	//$dbHost = '127.0.0.1';
     $dbName = 'nikkenla_site';
     $dbUser = 'nikkenla_mkrt';
     $dbPass = 'NNikken2011$$';
