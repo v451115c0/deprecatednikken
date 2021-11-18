@@ -1,6 +1,6 @@
 <?php
-	$serverName = "serverName\sqlexpress"; //serverName\instanceName
-    $connectionInfo = array( "Database"=>"dbName", "UID"=>"userName", "PWD"=>"password");
+	$serverName = "200.66.68.164\sqlexpress"; //serverName\instanceName
+    $connectionInfo = array( "Database"=>"NIKKENCOL", "UID"=>"nikkenmk", "PWD"=>"M4rk3t1n$");
     $conn = sqlsrv_connect( $serverName, $connectionInfo);
     
     if( $conn ) {
