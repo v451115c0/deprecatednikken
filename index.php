@@ -12,7 +12,7 @@
     
     $counter = 0;
     
-    $query = "SELECT TOP 1 * FROM OOCRD";
+    $query = "SELECT TOP 1 * FROM OCRD";
     $recordSet = sqlsrv_query($conn, $query) or die( print_r( sqlsrv_errors(), true));
     while ($row = sqlsrv_fetch_array($recordSet, SQLSRV_FETCH_ASSOC)){
         echo "Hola";
