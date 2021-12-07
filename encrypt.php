@@ -14,6 +14,6 @@
 
 	//Encrypt data
 	$encData = mcrypt_encrypt('tripledes', $key, $data, 'ecb');
-    exit($encData);
+    //exit($encData);
 	header ("Location: https://facturacionmex.nikkenlatam.com:8383/wfrmLogin.aspx?pId=".base64_encode($encData));
 ?>
